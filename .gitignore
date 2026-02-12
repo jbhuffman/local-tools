@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables (referenced by netalertx service)
+.env
+.env.*
+
+# Stirling-PDF runtime data (volumes mounted in docker-compose.yml)
+src/stirling-data/logs/
+src/stirling-data/configs/stirling-pdf-DB-*.mv.db
+src/stirling-data/configs/backup/
+src/stirling-data/configs/settings.yml
+src/stirling-data/configs/custom_settings.yml
+src/stirling-data/tessdata/
+src/stirling-data/pipeline/
